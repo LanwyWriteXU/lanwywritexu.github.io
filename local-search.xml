@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>测试文本</title>
+    <link href="/2024/10/26/TestPost/"/>
+    <url>/2024/10/26/TestPost/</url>
+    
+    <content type="html"><![CDATA[<h1 id="这是一个标题"><a href="#这是一个标题" class="headerlink" title="这是一个标题"></a>这是一个标题</h1><h2 id="这是一个二级标题"><a href="#这是一个二级标题" class="headerlink" title="这是一个二级标题"></a>这是一个二级标题</h2><h3 id="这是一个三级标题"><a href="#这是一个三级标题" class="headerlink" title="这是一个三级标题"></a>这是一个三级标题</h3><h4 id="很显然这是一个四级标题"><a href="#很显然这是一个四级标题" class="headerlink" title="很显然这是一个四级标题"></a>很显然这是一个四级标题</h4><span id="more"></span><h5 id="五级标题和正文差不多了"><a href="#五级标题和正文差不多了" class="headerlink" title="五级标题和正文差不多了"></a>五级标题和正文差不多了</h5><p><strong>比如你现在就看不出来这是正文字符</strong></p><h6 id="虽然五级标题够小了，但是Markdown仍旧准备了六级标题！"><a href="#虽然五级标题够小了，但是Markdown仍旧准备了六级标题！" class="headerlink" title="虽然五级标题够小了，但是Markdown仍旧准备了六级标题！"></a>虽然五级标题够小了，但是Markdown仍旧准备了六级标题！</h6><h6>同样的，你可以这么表示六级标题</h6><p>你可以<strong>加粗</strong>一个词语或则句子，或者是<em>倾斜</em>一个文本；当然，你可以选择<em><strong>两个都要！</strong></em><br>使用HTML的语句可以得到更多的文本类型，比如<font color="pink">这几个字就是粉色的！</font></p><p>Markdown是HTML的超集，所以你也可以在Markdown使用大多数HTML语法，比如<div style="background-color:#66ccff">这个地方的文字就是蓝色背景。</div></p><p>你可以创建一个<strong>表格</strong>（Table），就像下面那样：</p><table><thead><tr><th align="left">awa</th><th align="center">qwq</th><th align="right">aawa</th></tr></thead><tbody><tr><td align="left">阿米诺斯</td><td align="center">我草牛逼</td><td align="right">666</td></tr></tbody></table><p>你也可以在这里插入图片</p><p><a href="https://learn.ccw.site/article/12c20b27-9df6-4682-be21-496788bcd131?SubjectAreaGroupId=606&module=0&component=0"><img src="https://m.xiguacity.cn/fe-ccw-delivery-admin/57d7e62d75c2161cef4cd57c12a16353.png?x-oss-process=image/format,webp" title="这是我在CCW主页偷的！"></a></p><p>同样的，你也可以使用列表</p><ul><li>a</li><li>b<ul><li>c<ul><li>d</li></ul></li><li>e</li></ul></li><li>f</li></ul><p>以及代办</p><ul><li><input checked="" disabled="" type="checkbox"> a</li><li><input disabled="" type="checkbox"> b</li><li><input disabled="" type="checkbox"> c</li></ul><p>我也可以在这里写代码：</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br>    <span class="hljs-type">float</span> a;<br>    cin&gt;&gt;a;<br>    cout&lt;&lt;a&lt;&lt;endl;<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>NEW</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
