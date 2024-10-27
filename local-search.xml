@@ -4,18 +4,62 @@
   
   
   <entry>
+    <title>RadiumOS</title>
+    <link href="/2024/10/27/RadiumOS/"/>
+    <url>/2024/10/27/RadiumOS/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>2024年4月被创建，由Cyberexplorer开发与维护。<br>2024年10月停止开发与支持。</p><span id="more"></span><p>RadiumOS是使用原版Scratch制作的伪OS项目，</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>RadiumOS</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Scratch</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Scratch Primer · 第一章 预备知识</title>
+    <link href="/2024/10/27/Scratch/"/>
+    <url>/2024/10/27/Scratch/</url>
+    
+    <content type="html"><![CDATA[<h6 id="这是我的Scratch-Primer中的内容"><a href="#这是我的Scratch-Primer中的内容" class="headerlink" title="这是我的Scratch Primer中的内容"></a>这是我的<em>Scratch Primer</em>中的内容</h6><span id="more"></span><h1 id="第一章·预备知识"><a href="#第一章·预备知识" class="headerlink" title="第一章·预备知识"></a>第一章·预备知识</h1><p>在这一章，你将会了解什么是Scratch以及一些关于学习Scratch的基础知识，为了帮助你更好地学习后面的内容，本书可能会使用不太严谨的语言 来进行解释。<br>欢迎来到Scratch的世界，在这里你将会初步学习Scratch并了解更多关于Scratch的知识，成为Scratch大佬！让我们开始吧！</p><hr><h2 id="1-1什么是Scratch"><a href="#1-1什么是Scratch" class="headerlink" title="1.1什么是Scratch"></a>1.1什么是Scratch</h2><p>如果按照官方的话来说，Scratch是一个由MIT（美国麻省理工学院）的一个叫做“<strong>终身幼儿园团队</strong>”的工作室开发的适用于少儿的编程软件，最新的Scratch 3基于HTML、CSS和JavaScript，即HTML5。你可以在Scratch官网在线使用编程，也可以下载桌面端供离线使用，但是无法和官网连接。在国内也有巨大的Scratch分享站，比如<strong>Co-Create World（共创世界），Scratch中社，阿尔法营</strong>等。Scratch的教程书籍也有很多，在国内有《少儿游戏趣味编程 Scratch 3.0》、《Scratch少儿趣味编程》等可用书籍，可以学到大多数Scratch基础知识。</p><p>Scratch是完全开源的软件，在GitHub上可供下载源码并自己搭建一个编辑器网站，也可以在Scratch官网（<a href="scratch.mit.edu">scratch.mit.edu</a>）在线编辑。在国内推荐使用共创世界的在线编辑器或者下载离线版本的Scratch桌面端。</p><p>Scratch的意思为“抓挠”，而其中的操作逻辑就和抓挠很相似。以搭积木的形式，拖动每个不同的代码块并搭建代码栈，创建程序并实时调试。Scratch准确来说应该是一个“<strong>解释器</strong>”，即Interpreter；而Scratch因为基于HTML5，所以在运行的时候是一句一句解释并运行的，这点会在后面讲到。于是在运行的过程中就可以编辑源代码以实时预览。</p><p>Scratch的“积木式”语言可以更好地阅读并理解代码的含义，可以培养初学者的逻辑思维和分析能力。与大多数语言不同的是，Scratch将各种不同的功能都制作成单独的函数块，随时可以调用；并且可以和大多数语言相同的创建一个自定义函数，这个会在后面讲到，在这里先留下悬念，可以导入外置库（即<strong>扩展</strong>，“mods”）等。总的来说，Scratch可以算是一个完备的编程语言，所以完全可以用Scratch开发各种类型的游戏。</p><p>Scratch的项目文件后缀名为.sb，并接上版本号，例如Scratch 2的项目文件后缀名为.sb2。</p><h2 id="1-2-Scratch的历史"><a href="#1-2-Scratch的历史" class="headerlink" title="1.2 Scratch的历史"></a>1.2 Scratch的历史</h2><p>Scratch在刚开始建造的时候，其教育理念就是引导青少年学习编程思维，并进行初步的编程练习。Scratch的吉祥物是一只<strong>小黄猫</strong>，在每个版本的Scratch创建新项目的时候，都会自动创建一个角色且其初始造型为一只小黄猫，该小黄猫从始至终都没有改变过样貌，所以用“小黄猫”来代指Scratch是可行的，但是用“编程猫”则不行，这个将会在1.3讲到。</p><p>Scratch初代使用的是Smalltalk编写，作为“OLPC<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="One Laptop per Child，每个孩子都有一台电脑">[1]</span></a></sup>”计划的一部分。在这个计划中，提供了一个学习顺序，即Scratch-Etoys-Squeak-任意Smalltalk的顺序；在每个学习语言都有一个图形化编辑界面，供编程初学者使用。其中，Smalltalk是一个出名的应用程序开发语言，所以Scratch很快就获得了很多人的注意。并且，Scratch是第一个把编程和搭积木联系到一起的。（图为Scratch 1.1）<br><img src="https://t.tutu.to/img/9GUs6"></p><p>Scratch 2发布于2010年左右，在Scratch论坛上发布，这个版本使用FLASH编写，首次支持了矢量图角色以及在线编辑代码。Scratch 2有在线版和桌面版，前者可以在浏览器在线编辑源代码以及发布代码，后者可以离线编辑代码，而Scratch 2也首次加入了“云变量”，仅能在在线编辑时使用该功能，桌面版无法提供支持。在这个时候，Scratch就支持连接外部设备并编程，比如Lego Wedo等。这在3.0版本发布之前可以前往官网下载，在2020年Scratch 3发布后，官网便不再提供2.0版本的下载。（上图为Scratch 2.0）<br><img src="https://t.tutu.to/img/9GvZS"></p><p>在2018年，Scratch 3.0公测版本发布，在2019年，Scratch 3.0发行版正式发布，继在线版发布后，Scratch 3很快发布了离线桌面端。在第三代Scratch中，我们仍旧可以看见那只象征性的小黄猫，并且看到类似一代的编辑器界面。Scratch 3使用HTML5编写，离线版Scratch则是Electron制作的离线网页版本，理论上按住Ctrl+Shift+i就可以打开Scratch离线版的控制台，不过被关掉了，该功能在Scratch的Mod保留，这点会在1.3中讲到。（右图为Scratch 3.21）<br><img src="https://t.tutu.to/img/9G8dh"></p><p>Scratch 3的项目格式为.sb3，但是仍旧可以打开.sb2或者.sb文件并转换为.sb3文件。</p><p>Scratch 3相较于前两个版本，风格更加扁平美观，以及更多高级功能比如多次撤销和重做，这是前两代所不支持的；再比如恢复删除的角色，等。</p><p><em>本书所有代码均基于Scratch 3；而对于</em><em><strong>已过时</strong></em><em>的Scratch 2或者Scratch 1，请查找其他的资料。</em></p><h2 id="1-3-其他的Scratch-Mod"><a href="#1-3-其他的Scratch-Mod" class="headerlink" title="1.3 其他的Scratch Mod"></a>1.3 其他的Scratch Mod</h2><p>Scratch作为一个开源的软件，改编原版Scratch并得到更快的运行速度，或者更多的软件接口（即API），这是肯定有的事情。其中脱颖而出的几个编辑器：TurboWarp、Gandi IDE等就很好的诠释了该观点。</p><h3 id="1-3-1-TurboWarp"><a href="#1-3-1-TurboWarp" class="headerlink" title="1.3.1 TurboWarp"></a>1.3.1 TurboWarp</h3><p>TurboWarp是一个<strong>开源</strong>（open source）的Scratch Mod，其通过修改代码的运行逻辑加快了Scratch代码的运行速度；准确来说，是改变了Scratch代码的运行方式，使原本为解释器的Scratch成为了<strong>编译器</strong>。编译器和解释器的不同可以在后面提到。</p><p>并且，TurboWarp通过修改CSS使Scratch的积木拥有了更多的样式；通过底层代码的修改加快了运行帧率，你可以在1~250帧任意选择；解除了一些Scratch原版的限制，例如舞台围栏等；最重要的，是你获得了一个完全现代化的舞台大小——你可以完全自定义舞台的分辨率！对于纯画笔程序，你可以启用“高清画笔”获得更加清晰的绘制，就像在绘制矢量图一样。然而这些好看高级的功能都做出了一个伟大的牺牲，即耗用。越好的设备将获得越好的体验！<br>值得一提的是，TurboWarp拥有一个<strong>打包器</strong>（packager），可以将Scratch项目打包为可以单独执行的可执行文件，让其脱离编辑器运行！</p><h3 id="1-3-2-Gandi-IDE"><a href="#1-3-2-Gandi-IDE" class="headerlink" title="1.3.2 Gandi IDE"></a>1.3.2 Gandi IDE</h3><p>Gandi IDE和TurboWarp一样是开源的Scratch Mod。据说是拿TurboWarp的一些源码改的，不然也不会说用了TW的技术也用了更新的技术。Gandi IDE是一个社区的编辑器，来自共创世界团队（没错，就是前言提到的Co-Create World）。在共创世界社区，你可以使用先进的Gandi IDE以及其扩展。</p><p>Gandi IDE拥有最大的社区，在这个社区中，你可以看到Scratch创作者，扩展&#x2F;插件创作者等。可以更方便查找素材，调用各种API。以及使用TurboWarp的扩展！</p><p>Gandi IDE同样支持TurboWarp的高级功能，甚至是读取TurboWarp的作品保存信息。同样的，Gandi IDE也是一个编译器，可以编译代码后运行，拥有更快的运行速度。值得一提的是，Gandi IDE的开发团队也在努力开发Gandi IDE打包器，现在由于服务器的原因卡在瓶颈，也许就快解决了。</p><h3 id="1-3-3-更多中国编辑器"><a href="#1-3-3-更多中国编辑器" class="headerlink" title="1.3.3 更多中国编辑器"></a>1.3.3 更多中国编辑器</h3><p>因为Scratch的开源，使得很多国内Scratch分享站都有自己独家的编辑器，比如阿尔法营的Scratch编辑器就单独制作了JavaScript和Json读取扩展；又如Scratch中社为原版Scratch的一些限制设计了扩展。</p><h3 id="1-3-4-编程猫"><a href="#1-3-4-编程猫" class="headerlink" title="1.3.4 编程猫"></a>1.3.4 编程猫</h3><p>不管从什么方面来说，编程猫都不能算Scratch的一种。首先是代码层面：Scratch基于HTML5，而编程猫的源码编辑器基于C&#x2F;C++，这导致编程猫的源码编辑器会比Scratch快很多，造成的移植问题也非常严重，因为代码层面的不同，有些特性就不兼容；</p><p>然后是编辑器层面：在长相上，源码编辑器和Scratch的区别很大，设计风格的不同造成了两者的观感差距。在Scratch你明显可以感受到积木的感觉，而源码编辑器则给人一种拼图的感觉，两种编辑器在编辑的手感也不一样；</p><p>最后是平台的不同。Scratch的作品可以通过Scratch-vm<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="Scratch-vm，即Scratch虚拟机，是一种将代码单独在浏览器上运行且与系统相分割的程序，能够有效的放置源码被盗，虽然Scratch发布的作品默认开源。">[2]</span></a></sup>生成一个网页格式的可执行文件，在不同的平台运行；而源码编辑器在不同平台的编辑都不同，支持的功能也不同。</p><p>所以我才会在前面说，可以用“小黄猫”代指Scratch而不能用“编程猫”代指Scratch、</p><p><em>注：该教程仅适用于Scratch 3，对于过时的Scratch 2或者Scratch 1以及编程猫基本不适用，请单独查找对应的资料。</em></p><h2 id="1-4-解释器和编译器"><a href="#1-4-解释器和编译器" class="headerlink" title="1.4 解释器和编译器"></a>1.4 解释器和编译器</h2><p>解释器还是编译器，这就是问题所在。Scratch是一个解释器，注定导致了其运行缓慢；而TurboWarp是一个<strong>编译器</strong>（compiler），这就保证了其运行速度更快。那么什么是<strong>解释器</strong>（interpreter），什么是编译器呢？在这里我将做一个简单的介绍。</p><p>首先我要提出两个概念，解释型语言和编译型语言。前者代表代码在运行的过程中是一句一句翻译成可执行代码后再执行的，如Python；而后者则是指代码在运行之前先全部转换为可执行代码文件后再执行，如C++。两者最大的不同就是速度。解释型语言由于每句都要翻译一次，所以会比较慢，但是方便调试；而编译型语言可以一次性编译完，并脱离编译器使用，作为独立的可执行文件存在，很快，但是修BUG不太方便。</p><p>而Scratch就处在两个极端之间。因为Java及其附支语言如JavaScript都是有个叫做JIT的技术的，即“即时编译技术”。假如一段代码不需要长期修改，那么编译器会首先将这段代码编译为目标代码，并保存在内存里；在每次执行代码的时候就可以直接在内存单位查询这个代码并调用了。JIT技术大大加快了Java的运行速度，并且给TurboWarp了一个新选择：编译后执行。</p><p>Scratch是基于HTML5的，包含了JS代码，而JS是一个解释型语言，运行起来就会很慢；TurboWarp尝试将代码先全部翻译好了之后同时运行，这样就可以大大加快运行效率。而且TurboWarp还做到了编译器和解释器的互换，随时都可以开启或者关闭编译功能，做好调试是每个程序员都要面对的事情，只是一些解释器把它们变得简单了。所以我们应该感谢TurboWarp！</p><h2 id="1-5-认识Scratch的编辑器界面"><a href="#1-5-认识Scratch的编辑器界面" class="headerlink" title="1.5 认识Scratch的编辑器界面"></a>1.5 认识Scratch的编辑器界面</h2><p>Scratch的<strong>可视化界面</strong>（visual interface）排布很简单，三代有三代不同的排版。在这里主要介绍Scratch 3的界面。</p><p>在最左边有一行tag，那是对每种不同的积木的分类，轻点一下就可以快速跳转到该代码的选择界面；在这堆tag的上面还有3个tag分别对应了3个不同的编辑区，即脚本，形象和音效，单击就可以进入编辑界面；在左侧是代码选择区，右侧是舞台区，包含了舞台和角色选择区；中间的空白部分就是代码编辑区，所有的代码都是在这里面编辑的。</p><p>在左侧的代码选择区可以查看所有代码并拖出到编辑区，当使用或导入了新的扩展会显示更多选项；在右侧舞台区可以选择当前编辑的角色、调整一些角色的参数，例如“大小”、“方向”、“位置”等；代码编辑区可以拖动查看代码，而代码是可以随意摆放的。为了方便查看我们应该把代码整齐摆放。</p><p>在造型区，我们可以绘制每个角色的造型，使用矢量图绘制或者是位图绘制，并相互转换。Scratch支持较老的SVG矢量图格式，可以导入SVG图片，或者其他的像是png、jpng格式的位图进行编辑。在原版Scratch是可以导入GIF生成一堆造型的，但是TurboWarp和Gandi IDE好像失去了该用法。</p><p>在音频区，我们可以导入多种音频文件，或者直接录音。Scratch支持多声道文件，但是在编辑特效之后就会变成单声道，且无法撤销，这点需要注意，不然之后做着做着自己的音频掉san了。</p><p>舞台区可以预览当前的运行结果，舞台左上角有一个绿旗，在英文中叫“Flag”，即运行，在英文中是“Run”；一个红色的正八边形，即停止运行，在英文中是“Stop”。舞台区是可以调整大小的，右上角的三个按钮，可以调整舞台“小”、“正常”或者“全屏”三种状态。在舞台上可以直接拖动角色移动到心仪的位置。在舞台区下方靠左，可以看到三个按钮，可以放大代码编辑区，缩小代码编辑区，或者点击等于符号移到正中间并自动调整缩放（虽然这个不是很好用）。</p><p>最顶上的工具栏有多个选项，比如在“文件”-&gt;“保存到电脑”就可以把当前的代码以*.sb3保存到本地；在“编辑”-&gt;“恢复”可以恢复刚才删除的一个造型或者音频或者是角色。当然，音频仍旧会变成单声道。点击最右边那个问号图标，选择“about”（或者“关于”）就可以看到你的编辑器的信息。我的信息长这样（右图），可以看到Scratch的版本为3.29.1，Electron的版本为15.3.1，Chrome内核的版本为94.0.4606.81。这也印证了前文说的Scratch桌面版是一个离线网页。查看你的Scratch版本，至少要在3.20以上，否则可能会有些特性的差异。<br><img src="https://t.tutu.to/img/9GB7Q"></p><p>在2024年，更多的电脑使用的是Windows 11，也有很多Windows 10或者Windows 7。在这里我使用的电脑系统是Windows 11，所以在遇到一些截图的时候可能会有所差距，这是正常现象。</p><h2 id="1-6-准备Scratch"><a href="#1-6-准备Scratch" class="headerlink" title="1.6 准备Scratch"></a>1.6 准备Scratch</h2><p>写到后面的时候突然想起我忘记教各位怎么准备Scratch了。当然，这很简单，但是这是本书存在的基础。访问scratch.mit.edu以在线编程或者下载离线桌面端的Scratch 3，因为Scratch 2已经停止了下载。</p><p>如果你的PC系统是Windows 10以上，可以前往Microsoft Store搜索Scratch 3并下载UWP版本的离线桌面端Scratch 3，这和官网下载安装的Scratch没有差别，甚至可能更新。</p><p>你也可以选择下载Scratch的Mod比如TurboWarp或者Gandi IDE，他们分别可以在desktop.turbowarp.org和ccw.site&#x2F;desktop&#x2F;download获取。<br>Electron离线版提供了Windows、MacOS、Linux桌面端，以及还有Scratch on Android，所以你基本可以在任何地方找到Scratch 3并下载使用。在使用网络下载的时候要注意不要乱下载，小心下载到病毒。</p><h2 id="1-7-总结"><a href="#1-7-总结" class="headerlink" title="1.7 总结"></a>1.7 总结</h2><p>Scratch是首个将编程图形化的软件，他使用的是HTML5编写，可以将代码在线上传到Scratch分享站在浏览器内运行，Scratch本身为网页，在浏览器上运行。Scratch是一个解释器，运行慢，而TurboWarp和Gandi IDE则很好的解决了这一问题。</p><p>Scratch是开源的，所以在国内也有很多编辑器可以读取.sb3文件并顺利运行。</p><p>Scratch可以用“小黄猫”称呼，但是不能用“编程猫”称呼。</p><p>Scratch需要的预备知识不多，所以本章节应该是最水的一章了。现在我应该想想写什么东西来复习这章的内容了。</p><p>1.8 课后练习<br>1)Scratch是什么？<br>2)Scratch基于什么语言开发的？<br>3)Scratch的界面有几个部件？<br>4)Scratch有哪些好用的Mod？<br>5)Scratch是哪个团队开发的？<br>进阶·需要自己去查询<br>1)Scratch的舞台分辨率是多少？<br>2)Scratch的运行帧率是多少？ </p><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>One Laptop per Child，每个孩子都有一台电脑<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span>Scratch-vm，即Scratch虚拟机，是一种将代码单独在浏览器上运行且与系统相分割的程序，能够有效的放置源码被盗，虽然Scratch发布的作品默认开源。<a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>Primer</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Scratch</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>测试文本</title>
     <link href="/2024/10/26/TestPost/"/>
     <url>/2024/10/26/TestPost/</url>
     
     <content type="html"><![CDATA[<h1 id="这是一个标题"><a href="#这是一个标题" class="headerlink" title="这是一个标题"></a>这是一个标题</h1><h2 id="这是一个二级标题"><a href="#这是一个二级标题" class="headerlink" title="这是一个二级标题"></a>这是一个二级标题</h2><h3 id="这是一个三级标题"><a href="#这是一个三级标题" class="headerlink" title="这是一个三级标题"></a>这是一个三级标题</h3><h4 id="很显然这是一个四级标题"><a href="#很显然这是一个四级标题" class="headerlink" title="很显然这是一个四级标题"></a>很显然这是一个四级标题</h4><span id="more"></span><h5 id="五级标题和正文差不多了"><a href="#五级标题和正文差不多了" class="headerlink" title="五级标题和正文差不多了"></a>五级标题和正文差不多了</h5><p><strong>比如你现在就看不出来这是正文字符</strong></p><h6 id="虽然五级标题够小了，但是Markdown仍旧准备了六级标题！"><a href="#虽然五级标题够小了，但是Markdown仍旧准备了六级标题！" class="headerlink" title="虽然五级标题够小了，但是Markdown仍旧准备了六级标题！"></a>虽然五级标题够小了，但是Markdown仍旧准备了六级标题！</h6><h6>同样的，你可以这么表示六级标题</h6><p>你可以<strong>加粗</strong>一个词语或则句子，或者是<em>倾斜</em>一个文本；当然，你可以选择<em><strong>两个都要！</strong></em><br>使用HTML的语句可以得到更多的文本类型，比如<font color="pink">这几个字就是粉色的！</font></p><p>Markdown是HTML的超集，所以你也可以在Markdown使用大多数HTML语法，比如<div style="background-color:#66ccff">这个地方的文字就是蓝色背景。</div></p><p>你可以创建一个<strong>表格</strong>（Table），就像下面那样：</p><table><thead><tr><th align="left">awa</th><th align="center">qwq</th><th align="right">aawa</th></tr></thead><tbody><tr><td align="left">阿米诺斯</td><td align="center">我草牛逼</td><td align="right">666</td></tr></tbody></table><p>你也可以在这里插入图片</p><p><a href="https://learn.ccw.site/article/12c20b27-9df6-4682-be21-496788bcd131?SubjectAreaGroupId=606&module=0&component=0"><img src="https://m.xiguacity.cn/fe-ccw-delivery-admin/57d7e62d75c2161cef4cd57c12a16353.png?x-oss-process=image/format,webp" title="这是我在CCW主页偷的！"></a></p><p>同样的，你也可以使用列表</p><ul><li>a</li><li>b<ul><li>c<ul><li>d</li></ul></li><li>e</li></ul></li><li>f</li></ul><p>以及代办</p><ul><li><input checked="" disabled="" type="checkbox"> a</li><li><input disabled="" type="checkbox"> b</li><li><input disabled="" type="checkbox"> c</li></ul><p>我也可以在这里写代码：</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br>    <span class="hljs-type">float</span> a;<br>    cin&gt;&gt;a;<br>    cout&lt;&lt;a&lt;&lt;endl;<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
     
-    
-    <categories>
-      
-      <category>NEW</category>
-      
-    </categories>
     
     
   </entry>
